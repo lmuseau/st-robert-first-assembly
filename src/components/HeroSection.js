@@ -14,6 +14,7 @@ function HeroSection() {
           className='btns'
           buttonStyle='btn--outline' 
           buttonSize='btn--large'
+          buttonType='getting-started'
         >
           GET STARTED
         </Button>
@@ -21,6 +22,7 @@ function HeroSection() {
           className='btns'
           buttonStyle='btn--primary' 
           buttonSize='btn--large'
+          buttonType='recent-sermon'
         >
           WATCH RECENT SERMON <i className='far fa-play-circle' />
         </Button>

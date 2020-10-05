@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap');
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -6,7 +8,6 @@
 }
 
 .home,
-.about,
 .ministries,
 .involvement,
 .sign-up {
@@ -18,12 +19,11 @@
 }
 
 .about {
-  background-image: url('/images/img-2.jpg');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
+  font-family: 'Playfair Display', 'serif';
+  display: grid;
+  background-color: #f4f4f4;
+  align-content: center;
+  min-height: 100vh;
 }
 
 .ministries {
