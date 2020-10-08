@@ -10,7 +10,7 @@
     margin-right: -3px;
     margin-bottom: 5rem;
     text-align: center;
-    color: #333;
+    color: #ebeef8;
     position: relative;
 }
 
@@ -18,7 +18,7 @@
     content: '';
     width: 10rem;
     height: .8rem;
-    background-color: #45e19f;
+    background-color: #458ee1;
     position: absolute;
     bottom: -2rem;
     left: 50%;

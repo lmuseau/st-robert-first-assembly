@@ -10,7 +10,7 @@ function Footer() {
         <p className='footer-subscription-heading'>
           Thank you for joining St. Robert First Assembly of God
         </p>
-        <p className='footer-subscription-text'>
+        {/* <p className='footer-subscription-text'>
           You can unsubscribe at any time.
         </p>
         <div className='input-areas'>
@@ -18,7 +18,7 @@ function Footer() {
             <input type='email' name='email' placeholder='Your Email' className='footer-input' />
             <Button buttonType='subscribe' buttonStyle='btn--outline'>Subscribe</Button>
           </form>
-        </div>
+        </div> */}
       </section>
       <section className='social-media'>
         <div className='social-media-wrap'>

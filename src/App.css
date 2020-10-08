@@ -21,13 +21,27 @@
 .about {
   font-family: 'Playfair Display', 'serif';
   display: grid;
-  background-color: #f4f4f4;
+  /* background-color: #f4f4f4; */
+  background: url('/images/fa-about-us-background.jpeg') no-repeat;
+  background-attachment: fixed;
+  align-content: center;
+  min-height: 100vh;
+}
+
+.our-team {
+  font-family: 'Playfair Display', 'serif';
+  display: grid;
+  /* background-color: #f4f4f4; */
+  background: url('/images/fa-about-us-background.jpeg') no-repeat;
+  background-attachment: fixed;
   align-content: center;
   min-height: 100vh;
 }
 
 .ministries {
-  background-image: url('/images/img-1.jpg');
+  font-family: 'Playfair Display', 'serif';
+  display: grid;
+  background-image: url('/images/fa-about-us-background.jpeg');
   background-position: center;
   background-size: fill;
   background-repeat: no-repeat;
@@ -36,7 +50,7 @@
 }
 
 .involvement {
-  background-image: url('/images/img-4.jpg');
+  background-image: url('/images/fa-about-us-background.jpeg');
   background-position: center;
   background-size: fill;
   background-repeat: no-repeat;
@@ -45,7 +59,7 @@
 }
 
 .sign-up {
-  background-image: url('/images/img-8.jpg');
+  background-image: url('/images/fa-about-us-background.jpeg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;

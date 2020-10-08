@@ -5,12 +5,12 @@ import { Link } from 'react-router-dom'
 
 function OurTeam() {
   return (
-    <section className='team-section'>
+    <section className='our-team team-section'>
       <div className='team-container'>
-        <h1 className='team-heading'>Meet The Team</h1>
+        <h1 className='team-heading'>Our Team</h1>
         <div className='team-card-wrapper'>
           <div className='team-card'>
-            <img src='/images/img-5.jpg' alt='card background' className='team-card-img' />
+            <img src='/images/fa-card.jpeg' alt='card background' className='team-card-img' />
             <img src='/images/travist-brandy.jpg' alt='profile image' class='team-profile-img' />
             <h1>Travist/Brandy Patrick</h1>
             <p className='job-title'>Pastor</p>
@@ -23,7 +23,7 @@ function OurTeam() {
             </p> 
           </div>
           <div className='team-card'>
-            <img src='/images/img-5.jpg' alt='card background' className='team-card-img' />
+            <img src='/images/fa-card.jpeg' alt='card background' className='team-card-img' />
             <img src='/images/travist-brandy.jpg' alt='profile image' class='team-profile-img' />
             <h1>Travist/Brandy Patrick</h1>
             <p className='job-title'>Pastor</p>
@@ -36,7 +36,7 @@ function OurTeam() {
             </p> 
           </div>
           <div className='team-card'>
-            <img src='/images/img-5.jpg' alt='card background' className='team-card-img' />
+            <img src='/images/fa-card.jpeg' alt='card background' className='team-card-img' />
             <img src='/images/travist-brandy.jpg' alt='profile image' class='team-profile-img' />
             <h1>Travist/Brandy Patrick</h1>
             <p className='job-title'>Pastor</p>
@@ -49,7 +49,7 @@ function OurTeam() {
             </p> 
           </div>
           <div className='team-card'>
-            <img src='/images/img-5.jpg' alt='card background' className='team-card-img' />
+            <img src='/images/fa-card.jpeg' alt='card background' className='team-card-img' />
             <img src='/images/travist-brandy.jpg' alt='profile image' class='team-profile-img' />
             <h1>Travist/Brandy Patrick</h1>
             <p className='job-title'>Pastor</p>
