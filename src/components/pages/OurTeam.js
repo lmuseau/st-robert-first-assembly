@@ -1,7 +1,7 @@
 import React from 'react'
 import '../../App.css'
 import './OurTeam.css'
-import { Link } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
 
 function OurTeam() {
   return (
@@ -11,7 +11,7 @@ function OurTeam() {
         <div className='team-card-wrapper'>
           <div className='team-card'>
             <img src='/images/fa-card.jpeg' alt='card background' className='team-card-img' />
-            <img src='/images/travist-brandy.jpg' alt='profile image' class='team-profile-img' />
+            <img src='/images/travist-brandy.jpg' alt='profile image' className='team-profile-img' />
             <h1>Travist/Brandy Patrick</h1>
             <p className='job-title'>Pastor</p>
             <p className='team-about'>
@@ -24,7 +24,7 @@ function OurTeam() {
           </div>
           <div className='team-card'>
             <img src='/images/fa-card.jpeg' alt='card background' className='team-card-img' />
-            <img src='/images/travist-brandy.jpg' alt='profile image' class='team-profile-img' />
+            <img src='/images/travist-brandy.jpg' alt='profile image' className='team-profile-img' />
             <h1>Travist/Brandy Patrick</h1>
             <p className='job-title'>Pastor</p>
             <p className='team-about'>
@@ -37,7 +37,7 @@ function OurTeam() {
           </div>
           <div className='team-card'>
             <img src='/images/fa-card.jpeg' alt='card background' className='team-card-img' />
-            <img src='/images/travist-brandy.jpg' alt='profile image' class='team-profile-img' />
+            <img src='/images/travist-brandy.jpg' alt='profile image' className='team-profile-img' />
             <h1>Travist/Brandy Patrick</h1>
             <p className='job-title'>Pastor</p>
             <p className='team-about'>
@@ -50,7 +50,7 @@ function OurTeam() {
           </div>
           <div className='team-card'>
             <img src='/images/fa-card.jpeg' alt='card background' className='team-card-img' />
-            <img src='/images/travist-brandy.jpg' alt='profile image' class='team-profile-img' />
+            <img src='/images/travist-brandy.jpg' alt='profile image' className='team-profile-img' />
             <h1>Travist/Brandy Patrick</h1>
             <p className='job-title'>Pastor</p>
             <p className='team-about'>
