@@ -10,8 +10,8 @@ function OurTeam() {
         <h1 className='team-heading'>Our Team</h1>
         <div className='team-card-wrapper'>
           <div className='team-card'>
-            <img src='/images/fa-card.jpeg' alt='card background' className='team-card-img' />
-            <img src='/images/travist-brandy.jpg' alt='profile image' className='team-profile-img' />
+            <img src='/images/fa-card.jpeg' alt='' className='team-card-img' />
+            <img src='/images/travist-brandy.jpg' alt='' className='team-profile-img' />
             <h1>Travist/Brandy Patrick</h1>
             <p className='job-title'>Pastor</p>
             <p className='team-about'>
@@ -23,8 +23,8 @@ function OurTeam() {
             </p> 
           </div>
           <div className='team-card'>
-            <img src='/images/fa-card.jpeg' alt='card background' className='team-card-img' />
-            <img src='/images/travist-brandy.jpg' alt='profile image' className='team-profile-img' />
+            <img src='/images/fa-card.jpeg' alt='' className='team-card-img' />
+            <img src='/images/travist-brandy.jpg' alt='' className='team-profile-img' />
             <h1>Travist/Brandy Patrick</h1>
             <p className='job-title'>Pastor</p>
             <p className='team-about'>
@@ -36,8 +36,8 @@ function OurTeam() {
             </p> 
           </div>
           <div className='team-card'>
-            <img src='/images/fa-card.jpeg' alt='card background' className='team-card-img' />
-            <img src='/images/travist-brandy.jpg' alt='profile image' className='team-profile-img' />
+            <img src='/images/fa-card.jpeg' alt='' className='team-card-img' />
+            <img src='/images/travist-brandy.jpg' alt='' className='team-profile-img' />
             <h1>Travist/Brandy Patrick</h1>
             <p className='job-title'>Pastor</p>
             <p className='team-about'>
@@ -49,8 +49,8 @@ function OurTeam() {
             </p> 
           </div>
           <div className='team-card'>
-            <img src='/images/fa-card.jpeg' alt='card background' className='team-card-img' />
-            <img src='/images/travist-brandy.jpg' alt='profile image' className='team-profile-img' />
+            <img src='/images/fa-card.jpeg' alt='' className='team-card-img' />
+            <img src='/images/travist-brandy.jpg' alt='' className='team-profile-img' />
             <h1>Travist/Brandy Patrick</h1>
             <p className='job-title'>Pastor</p>
             <p className='team-about'>
