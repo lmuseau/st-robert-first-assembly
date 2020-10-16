@@ -14,8 +14,8 @@
   font-size: 3em;
   line-height: 48px;
   padding-bottom: 20px;
-  color: #5543ca;
-  background: linear-gradient(to right, #f4524d 0%, #5543ca 100%);
+  color: #82ccdd;
+  background: linear-gradient(to right, #82ccdd 0%, #b182dd 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -34,7 +34,7 @@
   width: 100%;
   height: 36px;
   border-width: 0 0 2px 0;
-  border-color: #5543ca;
+  border-color: #82ccdd;
   font-size: 18px;
   line-height: 26px;
   font-weight: 400;
@@ -53,7 +53,7 @@
   font-size: 18px;
   line-height: 26px;
   font-weight: 400;
-  color: #5543ca;
+  color: #82ccdd;
   cursor: text;
   text-transform: capitalize;
   transition: transform 0.2s ease-in-out;
@@ -61,7 +61,7 @@
 
 .contact-form .submit-btn {
   display: inline-block;
-  background-image: linear-gradient(125deg, #a72879, #064497);
+  background-image: linear-gradient(125deg, #82ccdd, #b182dd);
   color: #fff;
   text-transform: uppercase;
   text-align: center;
@@ -119,7 +119,7 @@
 }
 
 .input-radio:checked {
-  background: #E91E63
+  background: #82ccdd
 }
 
 .input-radio:checked::before {
@@ -159,7 +159,7 @@
   font-size: 18px;
   line-height: 26px;
   font-weight: 400;
-  color: #5543ca;
+  color: #82ccdd;
   cursor: text;
   text-transform: capitalize;
 }

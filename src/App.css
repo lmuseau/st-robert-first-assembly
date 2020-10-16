@@ -8,7 +8,6 @@
 }
 
 .home,
-.ministries,
 .involvement {
   display: flex;
   height: 90vh;
@@ -37,17 +36,6 @@
   min-height: 100vh;
 }
 
-.ministries {
-  font-family: 'Playfair Display', 'serif';
-  display: grid;
-  background-image: url('/images/nature.jpeg');
-  background-position: center;
-  background-size: fill;
-  background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
-}
-
 .involvement {
   background-image: url('/images/nature.jpeg');
   background-position: center;
@@ -64,4 +52,8 @@
   background-attachment: fixed;
   color: #fff;
   /* font-size: 100px; */
+}
+
+.cards_item_text {
+  color: #333;
 }

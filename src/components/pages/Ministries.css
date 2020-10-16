@@ -1,26 +1,97 @@
-.m-section {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  min-height: 90vh;
-  width: 85vw;
-  margin: 0 auto;
+.ministries-section {
+  padding: 60px 0;
+  background-image: url('/images/nature.jpeg');
+  background-size: fill;
+  min-height: 100vh;
+  background-attachment: fixed;
+  align-content: center;
 }
 
-.content {
-  background: #fff;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
+.inner-width {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+  overflow: hidden;
 }
 
-.content p {
-  color: #333;
-  padding-bottom: 15px;
-  font-weight: 300;
-  opacity: 0.7;
-  width: 60%;
+.section-title {
   text-align: center;
-  margin: 0 auto;
-  line-height: 1.7;
+  color: #333;
+  text-transform: uppercase;
+  /* font-size: 30px; */
+  font-size: 3.5rem;
+  letter-spacing: 3px;
+}
+
+.border {
+  width: 160px;
+  height: 2px;
+  background: #82ccdd;
+  margin: 40px auto;
+}
+
+.ministries-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.ministry-box {
+  max-width: 33.33%;
+  padding: 10px;
+  text-align: center;
+  color: #333;
+  cursor: pointer;
+}
+
+.ministry-icon {
+  display: inline-block;
+  width: 75px;
+  height: 75px;
+  border: 3px solid #82ccdd;
+  color: #82ccdd;
+  transform: rotate(45deg);
+  margin-bottom: 30px;
+  margin-top: 16px;
+  transition: 0.3s linear;
+}
+
+.ministry-icon i {
+  line-height: 70px;
+  transform: rotate(-45deg);
+  font-size: 26px;
+}
+
+.ministry-box:hover .ministry-icon {
+  background: #82ccdd;
+  color: #ddd;
+}
+
+.ministry-title {
+  font-size: 18px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.ministry-desc {
+  font-size: 14px;
+}
+
+@media screen and (max-width:960px) {
+  .ministry-box{
+    max-width: 45%;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .ministry-box{
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width:480px) {
+  .ministry-box{
+    max-width: 100%;
+  }
 }
