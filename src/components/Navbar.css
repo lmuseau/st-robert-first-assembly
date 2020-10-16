@@ -18,6 +18,10 @@
   max-width: 1500px;
 }
 
+.navbar-bottom-margin { /* align navbar center */
+  margin-bottom: 1rem;
+}
+
 .navbar-logo {
   color: #fff;
   justify-self: start;
@@ -117,7 +121,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    transform: translate(10%, 50%);
+    transform: translate(12%, 80%);
   }
 
   .menu-icon {

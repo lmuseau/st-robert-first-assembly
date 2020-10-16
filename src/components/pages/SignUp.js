@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import '../../App.css';
 import './SignUp.css';
+import '../../App.css';
 import axios from 'axios';
 
 
@@ -156,91 +156,93 @@ export default class SignUp extends Component {
   
   render() {
     return (
-      <section className="get_in_touch">
-        <h1 className="title">Get Connected With Us!</h1>
-        <div className="container">
-          <form onSubmit={this.formSubmit} className="contact-form row">
-            <div className="col-lg-12">
-              <h2 className="section-name">Name</h2>
-            </div>
-            <div className="form-field col-lg-6">
-              <input id="firstname" className="input-text" type="text" name="firstname" value={this.state.firstName} onChange={this.handleFirstName}/>
-              <label htmlFor="firstname" className="label">First Name</label>
-            </div>
-            <div className="form-field col-lg-6">
-              <input id="lastname" className="input-text" type="text" name="lastname" value={this.state.lastName} onChange={this.handleLastName}/>
-              <label htmlFor="lastname" className="label">Last Name</label>
-            </div>
-            <div className="form-field col-lg-6">
-              <input id="email" className="input-text" type="email" name="email" value={this.state.email} onChange={this.handleEmail}/>
-              <label htmlFor="email" className="label">Email</label>
-            </div>
-            <div className="form-field col-lg-6">
-              <input id="phone" className="input-text" type="text" name="phone" value={this.state.phone} onChange={this.handlePhone}/>
-              <label htmlFor="phone" className="label">Phone</label>
-            </div>
-            <div className="col-lg-12">
-              <h2 className="section-name">Spouse</h2>
-            </div>
-            <div className="form-field col-lg-6">
-              <input id="firstname" className="input-text" type="text" name="firstname" value={this.state.spouseFirstName} onChange={this.handleSpouseFirstName}/>
-              <label htmlFor="firstname" className="label">First Name</label>
-            </div>
-            <div className="form-field col-lg-6">
-              <input id="lastname" className="input-text" type="text" name="lastname" value={this.state.spouseLastName} onChange={this.handleSpouseLastName}/>
-              <label htmlFor="lastname" className="label">Last Name</label>
-            </div>
-            <div className="form-field col-lg-6">
-              <input id="email" className="input-text" type="email" name="email" value={this.state.spouseEmail} onChange={this.handleSpouseEmail}/>
-              <label htmlFor="email" className="label">Email</label>
-            </div>
-            <div className="form-field col-lg-6">
-              <input id="phone" className="input-text" type="text" name="phone" value={this.state.spousePhone} onChange={this.handleSpousePhone}/>
-              <label htmlFor="phone" className="label">Phone</label>
-            </div>
-            <div className="form-field col-lg-12">
-              <h3 className="section-name">Preferred Method of Contact</h3>
-            </div>
-            <div className="form-field col-lg-12 row">
-              <div className="col">
-                <label className="form-label form-check-label" htmlFor="email-contact"><input className="radio input-radio form-check-input" type="radio" id="email-contact" name="contact" value="Email" onChange={this.handleContact}/>Email</label>
+      <div className="sign-up">
+        <section className="get_in_touch">
+          <h1 className="title">Get Connected With Us!</h1>
+          <div className="container">
+            <form onSubmit={this.formSubmit} className="contact-form row">
+              <div className="col-lg-12">
+                <h2 className="section-name">Name</h2>
               </div>
-              <div className="col">
-                <label className="form-label form-check-label" htmlFor="call"><input className="radio input-radio form-check-input" type="radio" id="call" name="contact" value="Phone Call" onChange={this.handleContact}/>Call</label>
+              <div className="form-field col-lg-6">
+                <input id="firstname" className="input-text" type="text" name="firstname" value={this.state.firstName} onChange={this.handleFirstName}/>
+                <label htmlFor="firstname" className="label">First Name</label>
               </div>
-              <div className="col">
-                <label className="form-label form-check-label" htmlFor="text"><input className="radio input-radio form-check-input" type="radio" id="text" name="contact" value="Text" onChange={this.handleContact}/>Text</label>
+              <div className="form-field col-lg-6">
+                <input id="lastname" className="input-text" type="text" name="lastname" value={this.state.lastName} onChange={this.handleLastName}/>
+                <label htmlFor="lastname" className="label">Last Name</label>
               </div>
-            </div>
-            <div className="col-lg-12">
-              <h3 className="section-name">Address</h3>
-            </div>
-            <div className="form-field col-lg-6">
-              <input id="address1" className="input-text" type="text" name="address1" value={this.state.address1} onChange={this.handleAddress1}/>
-              <label htmlFor="address1" className="label">Address Line 1</label>
-            </div>
-            <div className="form-field col-lg-6">
-              <input id="address2" className="input-text" type="text" name="address2" value={this.state.address2} onChange={this.handleAddress2}/>
-              <label htmlFor="address2" className="label">Address Line 2</label>
-            </div>
-            <div className="form-field col-lg-6">
-              <input id="city" className="input-text" type="text" name="city" value={this.state.city} onChange={this.handleCity}/>
-              <label htmlFor="city" className="label">City</label>
-            </div>
-            <div className="form-field col-lg-3">
-              <input id="state" className="input-text" type="text" name="state" value={this.state.state} onChange={this.handleState}/>
-              <label htmlFor="state" className="label">State</label>
-            </div>
-            <div className="form-field col-lg-3">
-              <input id="zip" className="input-text" type="text" name="zip" value={this.state.zip} onChange={this.handleZip}/>
-              <label htmlFor="zip" className="label">Zip Code</label>
-            </div>
-            <div className="form-field col-lg-12">
-              <input className="submit-btn" type="submit" value="submit" />
-            </div>
-          </form>
-        </div>
-      </section>
+              <div className="form-field col-lg-6">
+                <input id="email" className="input-text" type="email" name="email" value={this.state.email} onChange={this.handleEmail}/>
+                <label htmlFor="email" className="label">Email</label>
+              </div>
+              <div className="form-field col-lg-6">
+                <input id="phone" className="input-text" type="text" name="phone" value={this.state.phone} onChange={this.handlePhone}/>
+                <label htmlFor="phone" className="label">Phone</label>
+              </div>
+              <div className="col-lg-12">
+                <h2 className="section-name">Spouse</h2>
+              </div>
+              <div className="form-field col-lg-6">
+                <input id="firstname" className="input-text" type="text" name="firstname" value={this.state.spouseFirstName} onChange={this.handleSpouseFirstName}/>
+                <label htmlFor="firstname" className="label">First Name</label>
+              </div>
+              <div className="form-field col-lg-6">
+                <input id="lastname" className="input-text" type="text" name="lastname" value={this.state.spouseLastName} onChange={this.handleSpouseLastName}/>
+                <label htmlFor="lastname" className="label">Last Name</label>
+              </div>
+              <div className="form-field col-lg-6">
+                <input id="email" className="input-text" type="email" name="email" value={this.state.spouseEmail} onChange={this.handleSpouseEmail}/>
+                <label htmlFor="email" className="label">Email</label>
+              </div>
+              <div className="form-field col-lg-6">
+                <input id="phone" className="input-text" type="text" name="phone" value={this.state.spousePhone} onChange={this.handleSpousePhone}/>
+                <label htmlFor="phone" className="label">Phone</label>
+              </div>
+              <div className="form-field col-lg-12">
+                <h3 className="section-name">Preferred Method of Contact</h3>
+              </div>
+              <div className="form-field col-lg-12 row">
+                <div className="col">
+                  <label className="form-label form-check-label" htmlFor="email-contact"><input className="radio input-radio form-check-input" type="radio" id="email-contact" name="contact" value="Email" onChange={this.handleContact}/>Email</label>
+                </div>
+                <div className="col">
+                  <label className="form-label form-check-label" htmlFor="call"><input className="radio input-radio form-check-input" type="radio" id="call" name="contact" value="Phone Call" onChange={this.handleContact}/>Call</label>
+                </div>
+                <div className="col">
+                  <label className="form-label form-check-label" htmlFor="text"><input className="radio input-radio form-check-input" type="radio" id="text" name="contact" value="Text" onChange={this.handleContact}/>Text</label>
+                </div>
+              </div>
+              <div className="col-lg-12">
+                <h3 className="section-name">Address</h3>
+              </div>
+              <div className="form-field col-lg-6">
+                <input id="address1" className="input-text" type="text" name="address1" value={this.state.address1} onChange={this.handleAddress1}/>
+                <label htmlFor="address1" className="label">Address Line 1</label>
+              </div>
+              <div className="form-field col-lg-6">
+                <input id="address2" className="input-text" type="text" name="address2" value={this.state.address2} onChange={this.handleAddress2}/>
+                <label htmlFor="address2" className="label">Address Line 2</label>
+              </div>
+              <div className="form-field col-lg-6">
+                <input id="city" className="input-text" type="text" name="city" value={this.state.city} onChange={this.handleCity}/>
+                <label htmlFor="city" className="label">City</label>
+              </div>
+              <div className="form-field col-lg-3">
+                <input id="state" className="input-text" type="text" name="state" value={this.state.state} onChange={this.handleState}/>
+                <label htmlFor="state" className="label">State</label>
+              </div>
+              <div className="form-field col-lg-3">
+                <input id="zip" className="input-text" type="text" name="zip" value={this.state.zip} onChange={this.handleZip}/>
+                <label htmlFor="zip" className="label">Zip Code</label>
+              </div>
+              <div className="form-field col-lg-12">
+                <input className="submit-btn" type="submit" value="submit" />
+              </div>
+            </form>
+          </div>
+        </section>
+      </div>
     )
   }
 }

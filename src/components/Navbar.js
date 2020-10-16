@@ -28,7 +28,7 @@ function Navbar() {
     <>
       <nav className='navbar'>
         <div className='navbar-container'>
-          <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
+          <Link to='/' className='navbar-bottom-margin navbar-logo' onClick={closeMobileMenu}>
             St. Robert First Assembly of God <i className='fas fa-church' />
           </Link>
           <div className='menu-icon' onClick={handleClick}>
@@ -61,7 +61,9 @@ function Navbar() {
               </Link>
             </li>
           </ul>
-          {button && <Button buttonStyle='btn--outline'>SIGN UP</Button>}
+          <div className="navbar-bottom-margin">
+            {button && <Button buttonStyle='btn--outline'>SIGN UP</Button>}
+          </div>
         </div>
       </nav>
     </>
